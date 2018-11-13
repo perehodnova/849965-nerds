@@ -1,7 +1,7 @@
 # Личный проект «Нёрдс»
 
 * Студент: [Переходнова Дарья](https://up.htmlacademy.ru/htmlcss/23/user/849965).
-* Наставник: [Анна Лёмина] (https://htmlacademy.ru/profile/id83874).
+* Наставник: [Анна )) Лёмина] (https://htmlacademy.ru/profile/id83874).
 
 ---
 
