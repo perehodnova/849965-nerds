@@ -25,18 +25,17 @@
       <sections class="filters">
       <h2 class="vasually-hidden">Фильтр шаблонов</h2>
       <h3>Сетка:</h3>
-    <label>
-      <input type="radio" value="Адаптивная" checked>Адаптивная
-    </label>
+    <form action="https://echo.htmlacademy.ru" method="post">
+      <input id="adapt" type="radio" name="net" value="adapt" checked>
+      <label for="adapt">Адаптивная</label>
   <br>
-  <label>
-    <input type="radio" value="Фиксированная">Фиксированная
-  </label>
+    <input  id="fix" type="radio" name="net" value="fix">
+      <label for="fix">Фиксированная  </label>
     <br>
-    <label>
-      <input type="radio" value="Резиновая">Резиновая
-    </label>
+      <input id="rubber" type="radio"  name="net" value="rubber">
+        <label for="rubber">Резиновая  </label>
       <h3>Особенности:</h3>
+        <form action="https://echo.htmlacademy.ru" method="post">
         <input type="checkbox" id="features"  checked>
           <label for="features">Слайдер</label>
     <br>
@@ -57,8 +56,6 @@
         <h2 class="vasually-hidden">Список шаблонов</h2>
         <ul class="catalog-list">
           <li class="catalog-item">
-
-
             <div>
               <h3>Sedona</h3>
               <p>Информационный сайт для туристов</p>
@@ -66,42 +63,42 @@
           </div>
           </li>
           <li class="catalog-item">
-            <img src="img/logosedona.jpg">
+            <img src="img/logosedona.jpg" alt="Седона">
             <div>
               <h3>Pink</h3>
               <p>Устали от серости мегаполиса? Нам есть, что Вам предложить</p>
             <a class="button" href="#">9900 <span>руб.</span></a>
           </div>
           </li><li class="catalog-item">
-            <img src="img/pink.jpg">
+            <img src="img/pink.jpg" alt="пинк">
             <div>
               <h3>Barbershop</h3>
               <p>Стрижка у нас-это выгодно</p>
             <a class="button" href="#">9900 <span>руб.</span></a>
             </div>
           </li><li class="catalog-item">
-            <img src="img/barbarshop.jpg">
+            <img src="img/barbarshop.jpg" alt="барбершоп">
             <div>
               <h3>Mishka</h3>
               <p>Милые штучки ручной работы для дома</p>
             <a class="button" href="#">9900 <span>руб.</span></a>
             </div>
           </li><li class="catalog-item">
-            <img src="img/Mishka.jpg">
+            <img src="img/Mishka.jpg" alt="Мишка">
             <div>
               <h3>A+</h3>
               <p>Учеба еще никогда не была такой интересной</p>
             <a class="button" href="#">9900 <span>руб.</span></a>
            </div>
           </li><li class="catalog-item">
-            <img src="img/A+.jpg"">
+            <img src="img/A+.jpg" alt="а плюс">
             <div>
               <h3>Кваст</h3>
               <p>Крафтовый квас всему голова</p>
             <a class="button" href="#">9900 <span>руб.</span></a>
            </div>
           </li><li class="catalog-item">
-            <img src="img/кваст.jpg"">
+            <img src="img/кваст.jpg" alt="кваст">
 
         </ul>
         <ul class="pagination-list">
@@ -114,11 +111,11 @@
       </main>
       <footer>
       <div class="footer-social">
-          <img src="img/maps.jpg">
+          <img src="img/maps.jpg" alt="Санкт-Петербург, ул. Большая Конюшенная, дом 19/8">
         <ul>
-          <li><a class="social-button" href="#">Вконтакте</a></li>
-          <li><a class="social-button" href="#">Фейсбук</a></li>
-          <li><a class="social-button" href="#">Инстаграмм</a></li>
+          <li><a class="social-button" href="#" aria-lable="нердс в контакте">Вконтакте</a></li>
+          <li><a class="social-button" href="#" aria-lable="нердс на фейсбуке">Фейсбук</a></li>
+          <li><a class="social-button" href="#" aria-lable="нердс в инстаграмм">Инстаграмм</a></li>
         </ul>
       </div>
       <div class="copyright">
