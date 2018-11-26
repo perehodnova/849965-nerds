@@ -24,34 +24,51 @@
         <h1 class="page-title">Магазин готовых шаблонов</h1>
       <sections class="filters">
       <h2 class="vasually-hidden">Фильтр шаблонов</h2>
-      <h3>Сетка:</h3>
-    <form action="https://echo.htmlacademy.ru" method="post">
-      <input id="adapt" type="radio" name="net" value="adapt" checked>
-      <label for="adapt">Адаптивная</label>
-  <br>
-    <input  id="fix" type="radio" name="net" value="fix">
-      <label for="fix">Фиксированная  </label>
-    <br>
-      <input id="rubber" type="radio"  name="net" value="rubber">
-        <label for="rubber">Резиновая  </label>
-      <h3>Особенности:</h3>
         <form action="https://echo.htmlacademy.ru" method="post">
-        <input type="checkbox" id="features"  checked>
-          <label for="features">Слайдер</label>
-    <br>
-    <input type="checkbox" id="features" >
-      <label for="features">Блок приемуществ</label>
-<br>
-<input type="checkbox" id="features"  checked>
-  <label for="features">Новости</label>
-<br>
-<input type="checkbox" id="features" >
-  <label for="features">Галерея</label>
-<br>  <input type="checkbox" id="features" >
-    <label for="features">Корзина</label>
-<br>
+      <fieldset class="filtres-grid">
+      <legend>Сетка:</legend>
+      <ul class="default-list">
+        <li class="form-option">
+          <input type="radio" name="grid" id="adaptive" class="visual-hidden filtres-input filtres-input-radio" checked>
+          <label for="adaptive" tabindex="0">Адаптивная</label>
+        </li>
+        <li class="form-option">
+        <input  id="fix" type="radio" name="grid" value="fix">
+      <label for="fix" tabindex="0">Фиксированная  </label>
+    </li>
+      <li class="form-option">
+      <input id="rubber" type="radio"  name="grid" value="rubber">
+        <label for="rubber" tabindex="0">Резиновая  </label>
+        </li>
+      </ul>
+    </fieldset>
+    <fieldset class="filtres-features">
+ 	    <legend>Особенности:</legend>
+ 	    <ul class="default-list">
+ 	      <li class="form-option">
+ 	        <input type="checkbox" name="slid" id="slid" class="visual-hidden filtres-input filtres-input-checkbox" checked>
+ 	        <label for="slid" tabindex="0">Слайдер</label>
+ 	      </li>
+ 	      <li class="form-option">
+ 	        <input type="checkbox" name="advantages" id="advantages" class="visual-hidden filtres-input filtres-input-checkbox">
+ 	         <label for="advantages" tabindex="0">Блок преимуществ</label>
+ 	      </li>
+ 	      <li class="form-option">
+ 	        <input type="checkbox" name="news" id="news" class="visual-hidden filtres-input filtres-input-checkbox" checked>
+ 	        <label for="news" tabindex="0">Новости</label>
+ 	      </li>
+ 	       <li class="form-option">
+ 	         <input type="checkbox" name="gallery" id="gallery" class="visual-hidden filtres-input filtres-input-checkbox">
+ 	         <label for="gallery" tabindex="0">Галерея</label>
+ 	       </li>
+ 	       <li class="form-option">
+ 	         <input type="checkbox" name="basket" id="basket" class="visual-hidden filtres-input filtres-input-checkbox">
+ 	         <label for="basket" tabindex="0">Корзина</label>
+ 	       </li>
+ 	     </ul>
+ 	</fieldset>
+	<button type="submit" class="button filtres-button">Показать</button>
     </sections>
-
       <sections class="catalog">
         <h2 class="vasually-hidden">Список шаблонов</h2>
         <ul class="catalog-list">
