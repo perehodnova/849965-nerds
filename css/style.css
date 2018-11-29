@@ -1,0 +1,147 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: "Roboto";
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: normal;
+  color: #283136;
+  background-color: #ffffff;}
+
+  .main-navigation {
+    font-family: "Roboto";
+    font-weight: ;
+    font-size: 17.5px;
+    line-height: 31.5px;
+    color: #000000;
+  }
+  .site-navigation,
+  .user-navigation {
+  list-style: none;
+}
+.site-navigation a{
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 1.88;
+  color: #000000;
+}
+
+.site-navigation a:hover{
+color:  #fb565a;
+}
+.site-navigation a:focus{
+  color: rgba(0, 0, 0, 0.3);
+}
+.applications h3 {
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 24.5px;
+  line-height: 31.5px;
+}
+.applications p {
+  font-family: "Roboto";
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+}
+.about-us-left h2{
+  font-family: "Roboto";
+  font-weight:500;
+  font-size: 45.5px;
+  line-height: 1;
+}
+.about-us-left p{
+  font-family: "Roboto";
+  font-weight:normal;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.about-us-left h4 {
+  font-family: "Roboto";
+  font-weight:normal;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.about-us-left ul{
+  font-family: "Roboto";
+  font-weight:normal;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.about-us-right h4{
+  font-family: "Roboto";
+  font-weight:bold;
+  font-size: 16px;
+  line-height: 24;
+  }
+.data{
+  font-family: "Roboto";
+  font-weight:bold;
+  font-size: 45px;
+  line-height: 0.22;
+  }
+.description{
+  font-family: "Roboto";
+  font-weight:normal;
+  font-size: 16px;
+  line-height: 1.13;
+  }
+.button.red {
+  text-align: center;
+  color: #ffffff;
+  vertical-align: middle;
+  background-color: #fb565a;
+  border: none;
+}
+.button.red:hover{
+ background-color: #fb565a;
+ color:#ffffff;
+}
+.button.red:focus{
+ background-color:#e74246
+ color:#ffffff;
+}
+.button.red:active {
+  background-color: #d7373b;
+  color:rgba(255, 255, 255, 0.3);
+}
+.button.green {
+  text-align: center;
+  color: #ffffff;
+  vertical-align: middle;
+  background-color: #00ca74;
+  border: none;
+}
+.button.green:hover{
+ background-color: #00ca74;
+ color:#ffffff;
+}
+.button.green:focus{
+ background-color:#00bc6c;
+ color:#ffffff;
+}
+.button.green:active {
+  background-color:#00aa62;
+  color:rgba(255, 255, 255, 0.3);
+}
+.button.yellow {
+  text-align: center;
+  color: #ffffff;
+  vertical-align: middle;
+  background-color: #efc84a;
+  border: none;
+}
+.button.yellow:hover{
+ background-color:#efc84a;
+ color:#ffffff;
+}
+.button.yellow:focus{
+ background-color:#eab534;
+ color:#ffffff;
+}
+.button.yellow:active {
+  background-color:#e5a722;
+  color:rgba(255, 255, 255, 0.3);
+}
