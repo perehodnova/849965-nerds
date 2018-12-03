@@ -20,7 +20,8 @@ body {
   .user-navigation {
   list-style: none;
 }
-.site-navigation a{
+.site-navigation a,
+.main-navigation-cart a{
   font-size: 16px;
   font-weight: 500;
   font-style: normal;
@@ -28,10 +29,14 @@ body {
   color: #000000;
 }
 
-.site-navigation a:hover{
+.site-navigation a:hover,
+.main-navigation-cart a:hover,
+.site-navigation a:focus,
+.main-navigation-cart a:focus{
 color:  #fb565a;
 }
-.site-navigation a:focus{
+.site-navigation a:active,
+.main-navigation-cart a:active{
   color: rgba(0, 0, 0, 0.3);
 }
 .applications h3 {
@@ -88,6 +93,26 @@ color:  #fb565a;
   font-size: 16px;
   line-height: 1.13;
   }
+.copyright h3 {
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 35px;
+  }
+.copyright p {
+  font-family: "Roboto";
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  }
+
+.button{
+text-decoration: none;
+display: inline-block;
+padding: 19px 39px;
+text-transform: uppercase;
+}
+
 .button.red {
   text-align: center;
   color: #ffffff;
@@ -145,3 +170,82 @@ color:  #fb565a;
   background-color:#e5a722;
   color:rgba(255, 255, 255, 0.3);
 }
+/*---------------*/
+
+.main-navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-header-logo{
+  display: inline-block;
+  margin-right: 202px;
+  }
+.site-navigation{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.site-navigation li{
+  margin-right: 48px;
+}
+.site-navigation a{
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.site-navigation li:last-child{
+  margin-right: 0;
+}
+.main-navigation-cart a{
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.applications-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+}
+.applications-item {
+  width: 300px;
+  }
+.applications-item p{
+  width: 240px;
+}
+
+
+
+
+
+.footer-social {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  }
+.footer-navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+  margin-left: 139px;
+  width: 231px;
+  }
+.copyright {
+  display: inline-block;
+  margin-left: 139px;
+  float : center ;
+  width: 545px;
+  }
+
+.footer-socials ul {
+  float : left ;
+  padding : 12px;
+  }
+.footer-navigation li:last-child{
+  margin-right: 0;
+  }
