@@ -93,18 +93,6 @@ color:  #fb565a;
   font-size: 16px;
   line-height: 1.13;
   }
-.copyright h3 {
-  font-family: "Roboto";
-  font-weight: bold;
-  font-size: 35px;
-  line-height: 35px;
-  }
-.copyright p {
-  font-family: "Roboto";
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 22px;
-  }
 
 .button{
 text-decoration: none;
@@ -218,34 +206,100 @@ text-transform: uppercase;
 }
 
 
+.catalog li {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.catalog-item {
+  width: 360px;
+  padding-right: 40px;
+}
+.catalog-item li:nth-child(2){
+  padding-left: 940px;
+}
 
 
 
-.footer-social {
+
+  .map {
+  position: relative;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+
+.footer-container {
+  position: absolute;
+  width: 270px;
+  height: 253px;
+  background-color: #ffffff;
+  margin-left: 140px;
+  top: 54px;
+  padding-top: 55px;
+  padding-left: 50px;
+}
+
+.footer-container h3 {
+  font-family: "Robotobold", sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-bottom: 34px;
+}
+
+.footer-container p {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  color: #666666;
+}
+
+.adress-phone {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.social-network {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin: 0;
   align-items: center;
-  }
-.footer-navigation {
+  margin-top: 70px;
+  margin-bottom: 70px;
+  margin-left: 140px;
+  margin-right: 355px;
+}
+
+.logo-network {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  list-style: none;
-  margin-left: 139px;
-  width: 231px;
-  }
-.copyright {
-  display: inline-block;
-  margin-left: 139px;
-  float : center ;
-  width: 545px;
-  }
+  justify-content: flex-start;
+}
 
-.footer-socials ul {
-  float : left ;
-  padding : 12px;
-  }
-.footer-navigation li:last-child{
-  margin-right: 0;
-  }
+.logo-network a {
+  display: block;
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
+  background-color: #e1e1e1;
+  margin-right: 10px;
+  background-position: center;
+}
+.be-friends {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-slogan {
+  font-family: "Roboto", sans-serif;
+  font-size: 35px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.be-friends p {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+}
